@@ -7,3 +7,13 @@
 .heiten{
     white-space:nowrap; 
     }
+.table_of_contents{
+    background: #f8f5f2; 
+    color: #333; 
+    font-weight: bold; 
+    font-size:17px;  
+    margin:0 auto;  
+    border: 5px solid #078080;  
+    width:100%;  
+    max-width:300px; 
+    }
