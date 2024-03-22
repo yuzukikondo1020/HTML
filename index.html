@@ -22,6 +22,7 @@
     <div class="btn-wrapper">
         <a href="#" class="btn signup">新規登録はこちら</a>
         <p>or sign up with</p>
+        <a href="#" class="btn google"><span class="fa fa-google"></span>Googleで登録</a>
         <a href="#" class="btn facebook"><span class="fa fa-facebook"></span>Facebookで登録</a>
         <a href="#" class="btn twitter"><span class="fa fa-twitter"></span>Twitterで登録</a>
     </div>
@@ -127,8 +128,19 @@
 <br />
 <div class="contact-form">
     <h3 class="section-title">お問い合わせ</h3>
-    <p>メールアドレス（必須）</p>
-    <p>お問い合わせ内容（必須）</p>
+    <form action="" method="post">
+        <div class="item">
+            <label class="label">メールアドレス（必須）</label>
+            <input type="email" class="inputs" name="email" />
+        </div>
+        <div class="item">
+            <label class="label">お問い合わせ内容（必須）</label>
+            <textarea class="inputs" />
+        </div>
+        <div class="button-area">
+            <input type="submit" value="送信"/>
+        </div>
+    </form>
 </div>
 <script src="script.js"></script>
 </body>
